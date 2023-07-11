@@ -45,7 +45,7 @@ To synthesis speech from a text file, run the following command:
   
 Where temp_speed and timesteps define the tempo speed and number of timesteps in reverse diffusion.
 
-For voice conversion, run the following command:
+For Voice-Conversion, run the following command:
 
   ```bash
   python run_vc.py <path_to_models_dirs> <path_to_input_wave_file> <path_to_output_wave_file>
@@ -55,3 +55,10 @@ For voice conversion, run the following command:
 Currently only the data for Grad-TTS model training is available. The training acoustic data is Roboshaul-gold which can be found [here](https://openslr.org/134/). The phonetic transcripts which are used for training are located in "Grad-TTS/resources/filelists/shaul-gold". 
 Please follow the steps in the [Grad-TTS repo](https://github.com/huawei-noah/Speech-Backbones/tree/main/Grad-TTS) for the training steps.
 
+
+## Contact
+If you have any comments or questions, feel free to contact me.
+
+[Connect on LinkedIn](https://www.linkedin.com/in/maxim-lvov-a0042a8b/)
+
+![](contact.jpg)
