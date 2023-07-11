@@ -45,7 +45,7 @@ To synthesis speech from a text file, run the following command:
   
 Where temp_speed and timesteps define the tempo speed and number of timesteps in reverse diffusion.
 
-For Voice-Conversion, run the following command:
+For voice conversion, run the following command:
 
   ```bash
   python run_vc.py <path_to_models_dirs> <path_to_input_wave_file> <path_to_output_wave_file>
