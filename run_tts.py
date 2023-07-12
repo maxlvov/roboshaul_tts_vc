@@ -44,7 +44,7 @@ path_to_output_wave_file = args.path_to_output_wave_file
 
 
 path_to_g2p_model = os.path.join(path_to_models_dirs,'G2P','model_step_10000.pt')
-path_to_tts_model = os.path.join(path_to_models_dirs,'TTS','grad_449.pt')
+path_to_tts_model = os.path.join(path_to_models_dirs,'TTS','grad_tts.pt')
 path_to_hifigan_tts = os.path.join(path_to_models_dirs,'HiFiGAN_for_GradTTS','hifigan.pt')
 
 for fil in [path_to_g2p_model, path_to_tts_model, path_to_hifigan_tts] :
